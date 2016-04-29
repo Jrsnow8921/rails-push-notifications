@@ -5,7 +5,7 @@ module RailsPushNotifications
   # @author Carlos Alonso
   #
   class GCMApp < BaseApp
-    self.table_name = 'rails_push_notifications_gcm_apps'
+    self.table_name = 'rails_push_gcm_apps'
 
     # Requires a gcm_key
     validates :gcm_key, presence: true
