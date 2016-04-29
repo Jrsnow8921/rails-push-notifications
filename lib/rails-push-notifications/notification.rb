@@ -6,7 +6,7 @@ module RailsPushNotifications
   #
   class Notification < ActiveRecord::Base
 
-    self.table_name = 'rails_push_notif'
+    self.table_name = 'push_notif'
 
     # belongs_to an app
     belongs_to :app, polymorphic: true
