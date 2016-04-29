@@ -5,7 +5,7 @@ module RailsPushNotifications
   # @author Carlos Alonso
   #
   class APNSApp < BaseApp
-    self.table_name = 'rails_push_apns_apps'
+    self.table_name = 'push_apns_apps'
 
     # Requires a development certificate
     validates :apns_dev_cert, presence: true
