@@ -5,7 +5,7 @@ module RailsPushNotifications
   # @author Carlos Alonso
   #
   class MPNSApp < BaseApp
-    self.table_name = 'rails_push_notifications_mpns_apps'
+    self.table_name = 'rails_push_mpns_apps'
 
     # Requires the certificate
     validates :cert, presence: true
